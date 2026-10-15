@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "label": "Opus",
+      "flag": "opus"
+    },
+    {
+      "label": "Sonnet",
+      "flag": "sonnet"
+    }
+  ],
+  "recentCount": 8,
+  "shell": "pwsh",
+  "extraArgs": [],
+  "separatorStyle": "line"
+}

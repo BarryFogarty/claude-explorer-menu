@@ -1,0 +1,6 @@
+dist/
+bin/
+obj/
+*.msix
+*.cer
+native/package/Assets/

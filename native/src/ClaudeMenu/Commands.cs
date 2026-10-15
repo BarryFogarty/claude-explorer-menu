@@ -68,7 +68,7 @@ internal sealed partial class RootCommand : IExplorerCommand, IObjectWithSite
             foreach (var model in config.Models)
                 children.Add(new ChildCommand(model.Label, () => Launcher.Start(folder, $"--model {model.Flag}", config)));
 
-            children.Add(new ChildCommand("Resume...", () => Launcher.Start(folder, "--resume", config)));
+            children.Add(new ChildCommand("Resume…", () => Launcher.Start(folder, "--resume", config)));
 
             var recent = Sessions.Recent(folder, config.RecentCount);
             if (recent.Chats.Count > 0)

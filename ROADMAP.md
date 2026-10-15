@@ -2,7 +2,7 @@
 
 ## Now
 
-- Phase 1: static folder menu (Opus, Sonnet, Continue, Resume picker), config-driven, HKCU. Done.
+- Phase 1: static folder menu (Opus, Sonnet, Continue, Resume…), config-driven, HKCU. Done.
 - Phase 2: native C# (Native AOT) `IExplorerCommand` handler in a sparse MSIX package for the top-level Windows 11 menu, with a live recent-chats list per folder.
   - Label per session: last `custom-title` record, else last `ai-title`, else first user prompt.
   - Read only the last ~64 KB of each of the newest N `.jsonl` files (`recentCount`, default 8).
@@ -10,7 +10,7 @@
 
 ## TODO: README and discoverability
 
-- Animated GIF at the top of the README showing the real behaviour: right-click a folder, the **Claude** submenu opening (models, Resume..., chat list), a chat launching in Windows Terminal, then Shift+click hiding a chat and **Show N hidden chats** bringing it back. Keep it short (under about 15 s) and small enough to load fast; record at 100% scaling on a clean folder with non-sensitive chat titles.
+- Animated GIF at the top of the README showing the real behaviour: right-click a folder, the **Claude** submenu opening (models, Resume…, chat list), a chat launching in Windows Terminal, then Shift+click hiding a chat and **Show N hidden chats** bringing it back. Keep it short (under about 15 s) and small enough to load fast; record at 100% scaling on a clean folder with non-sensitive chat titles.
 - Static screenshot of the menu as a fallback for the GIF (and for the GitHub social preview image).
 - Search discoverability:
   - Repo description and GitHub topics (for example `claude-code`, `anthropic`, `windows-11`, `context-menu`, `file-explorer`, `shell-extension`, `native-aot`, `iexplorercommand`).

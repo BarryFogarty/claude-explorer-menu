@@ -5,7 +5,7 @@ Right-click any folder in Windows File Explorer and launch Claude Code there, wi
 ```text
 Claude  >  Opus
            Sonnet
-           Resume...
+           Resume…
            ------------------------------
            Bugfix: File not found error  (2h)
            Add unit tests for the auth module  (1d)
@@ -50,7 +50,7 @@ config.json        settings shared by both variants (edit in place)
 .\basic\install.ps1
 ```
 
-Adds a **Claude** submenu to folders and folder backgrounds (HKCU only, no admin). Entries: one per configured model, **Continue last chat**, **Resume picker...**. On Windows 11 it appears under **Show more options**.
+Adds a **Claude** submenu to folders and folder backgrounds (HKCU only, no admin). Entries: one per configured model, **Continue last chat**, **Resume…**. On Windows 11 it appears under **Show more options**.
 
 Remove with `.\basic\uninstall.ps1`. Re-run `install.ps1` after editing the config.
 

@@ -29,7 +29,7 @@ foreach ($m in $config.models) {
     $verbs += [pscustomobject]@{ Label = $m.label; Args = "--model $($m.flag)"; Sep = $false }
 }
 $verbs += [pscustomobject]@{ Label = 'Continue last chat'; Args = '--continue'; Sep = $true }
-$verbs += [pscustomobject]@{ Label = 'Resume picker...'; Args = '--resume'; Sep = $false }
+$verbs += [pscustomobject]@{ Label = 'Resume…'; Args = '--resume'; Sep = $false }
 
 $roots = @(
     'HKCU:\Software\Classes\Directory\shell\Claude',

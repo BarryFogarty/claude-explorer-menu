@@ -13,7 +13,6 @@
 - Animated GIF at the top of the README showing the real behaviour: right-click a folder, the **Claude** submenu opening (models, Resume…, chat list), a chat launching in Windows Terminal, then Shift+click hiding a chat and **Show N hidden chats** bringing it back. Keep it short (under about 15 s) and small enough to load fast; record at 100% scaling on a clean folder with non-sensitive chat titles.
 - Static screenshot of the menu as a fallback for the GIF (and for the GitHub social preview image).
 - Search discoverability:
-  - Repo description and GitHub topics (for example `claude-code`, `anthropic`, `windows-11`, `context-menu`, `file-explorer`, `shell-extension`, `native-aot`, `iexplorercommand`).
   - README headings and first paragraph that use the phrases people search for: "Claude Code", "Windows Explorer right-click", "Open in terminal", "resume chat", "Windows 11 context menu".
   - Short "Why" section: what the built-in options lack (no folder launcher, no per-folder chat list).
   - Social preview image (1280x640).
